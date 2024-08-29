@@ -1,0 +1,95 @@
+.navbar{
+    background: black;
+    text-decoration: none;
+    border: 5px solid rgb(35, 2, 67);
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: slategray;
+}
+.logo-container{
+    font-weight: 600;
+}
+*{
+    text-decoration: none;
+}
+
+
+li{
+    padding: 15px;
+    list-style: none;
+    display: inline-block;
+
+}
+li a{
+    color: slategray;
+    font-size: 18px;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.about{
+    min-height: 100vh;
+    width: 100%;
+    padding: 78px 0px;
+    background-color: black;
+    
+}
+.about img{
+    border: 2px solid  rgb(35, 2, 67) ;
+    box-shadow: 0 0 5px  rgb(35, 2, 67), 0 0 25px  rgb(35, 2, 67);
+    height: auto;
+    width: 50%;
+    border-radius: 5em;
+    transition: 0.5s ease;
+
+}
+.about-text h1{
+    color:   rgb(133, 64, 15);
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: slategray;
+    font-size: 28px;
+    text-transform: 25px;
+    margin-bottom: 0.4em;
+}
+span{
+    color:silver ;
+}
+.about-text{
+    color: slategray;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+button{
+    background: transparent;
+    color:  slategray;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s ease;
+    border: 2px solid white;
+    font-weight: bold;
+}
+    button:hover{
+        background:  rgb(35, 2, 67);
+        color: white;
+        border: 2px solid  rgb(35, 2, 67);
+        box-shadow: 0 0 5px  rgb(35, 2, 67), 0 0 25px  rgb(35, 2, 67);
+        cursor: pointer;
+        transform: scale(1,1); 
+    }
+    .cv{
+        margin-left: 0.5em;
+
+    }
